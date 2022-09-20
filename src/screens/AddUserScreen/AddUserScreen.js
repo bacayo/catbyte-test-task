@@ -23,21 +23,6 @@ const AddUserScreen = () => {
     // fetchData();
   };
 
-  //   const fetchData = () => {
-  //     fetch('https://dummyjson.com/users/add', {
-  //       method: 'POST',
-  //       headers: { 'Content-Type': 'application/json' },
-  //       body: JSON.stringify({
-  //         firstName: firstname,
-  //         lastName: lastname,
-  //         image: 'https://robohash.org/doloremquesintcorrupti.png',
-  //         /* other product data */
-  //       }),
-  //     })
-  //       .then((res) => res.json())
-  //       .then(console.log);
-  //   };
-
   return (
     <View style={styles.container}>
       <TextInput
